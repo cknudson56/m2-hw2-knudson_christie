@@ -39,14 +39,26 @@ h2, h3, p {
 
 .green {
 	color: #11361E;
+	border-color: #11361E;
 }
 
 .red {
 	color: #F53E30;
+	border-color: #F53E30;
 }
 
 .white {
 	color: #FFFFFF;
+	border-color: #FFFFFF;
+}
+
+.border {
+	border-style: solid;
+	border-width: medium;
+	border-radius: 5px;
+	width: 110px;
+	padding: 10px;
+	text-transform: uppercase;
 }
 
 #location {
@@ -60,21 +72,23 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	text-align: center;
 }
 
 main {
 	height: 200px;
+	text-align: center;
 }
 
 #seasonal {
 	height: 400px;
 	background-color: #F7F3EC;
+	text-align: center;
 }
 
 footer {
-	
+	text-align: center;
 }
-
 
 
 
