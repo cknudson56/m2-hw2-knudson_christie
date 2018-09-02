@@ -62,11 +62,38 @@ h2, h3, p {
 	text-transform: uppercase;
 }
 
+/************* LOCATION BAR *************/
+
 #location {
 	background-color: #F7F3EC;
 	text-align: center;
 	padding: 10px 0 10px 0;
 }
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#logo {
+	width: 280px;
+	padding: 10px 10% 10px 10%;
+}
+
+nav ul {
+	margin-bottom: 14px;
+}
+
+nav ul li {
+	text-align: center;
+	list-style-type: none;
+	display: inline-block;
+	margin: 6px;
+}
+
+/************* HEADER *************/
 
 header {
 	background-image: url('img/plants-bg.png');
@@ -77,10 +104,14 @@ header {
 	text-align: center;
 }
 
+/************* MAIN *************/
+
 main {
 	height: 200px;
 	text-align: center;
 }
+
+/************* SEASONAL *************/
 
 #seasonal {
 	height: 400px;
@@ -88,10 +119,17 @@ main {
 	text-align: center;
 }
 
+/************* FOOTER *************/
+
 footer {
 	text-align: center;
 }
 
+
+
+
+
+/************* MEDIA QUERIES *************/
 
 @media (min-width: 600px) {
 	#location {
@@ -106,6 +144,19 @@ footer {
 		border-left-style: solid;
 		border-left-width: 1px;
 		border-right-color: #11361E;
+	}
+}
+
+@media (min-width: 726px) {
+	nav {
+		justify-content: space-between;
+	}
+	#logo {
+		padding: 10px 0 10px 10%;
+	}
+	nav ul {
+		margin-bottom: 0;
+		margin-right: 10%;
 	}
 }
 
