@@ -104,6 +104,14 @@ header {
 	text-align: center;
 }
 
+header h1 {
+	padding: 70px 10% 20px 10%;
+}
+
+.margin-auto {
+	margin: auto;
+}
+
 /************* MAIN *************/
 
 main {
