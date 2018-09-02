@@ -30,12 +30,13 @@ h2 {
 }
 
 h2, h3 {
-	font-size: 1rem;
+	font-size: 0.9rem;
 }
 
 h2, h3, p {
 	color: #11361E;
 }
+
 
 .green {
 	color: #11361E;
@@ -63,7 +64,8 @@ h2, h3, p {
 
 #location {
 	background-color: #F7F3EC;
-	height: 50px;
+	text-align: center;
+	padding: 10px 0 10px 0;
 }
 
 header {
@@ -91,5 +93,19 @@ footer {
 }
 
 
-
+@media (min-width: 600px) {
+	#location {
+		text-align: right;
+		padding-right: 10%;
+	}
+	#location h3 {
+		display: inline;
+		padding: 0 2% 0 2%;
+	}
+	.border-left {
+		border-left-style: solid;
+		border-left-width: 1px;
+		border-right-color: #11361E;
+	}
+}
 
