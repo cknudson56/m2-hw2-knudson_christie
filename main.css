@@ -27,14 +27,19 @@ h1 {
 
 h2 {
 	text-transform: uppercase;
+	font-size: 1rem;
 }
 
-h2, h3 {
+h3 {
 	font-size: 0.9rem;
 }
 
-h2, h3, p {
+h2, h3 {
 	color: #11361E;
+}
+
+p {
+	font-weight: 300;
 }
 
 
@@ -131,6 +136,10 @@ main {
 
 footer {
 	text-align: center;
+}
+
+footer p {
+	color: #11361E;
 }
 
 
