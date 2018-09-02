@@ -65,6 +65,7 @@ p {
 	width: 110px;
 	padding: 10px;
 	text-transform: uppercase;
+	font-weight: 400;
 }
 
 /************* LOCATION BAR *************/
@@ -120,8 +121,17 @@ header h1 {
 /************* MAIN *************/
 
 main {
-	height: 200px;
+	height: 250px;
 	text-align: center;
+}
+
+main h2 {
+	padding-top: 40px;
+}
+
+main p {
+	padding: 10px 10% 20px 10%;
+	max-width: 500px;
 }
 
 /************* SEASONAL *************/
