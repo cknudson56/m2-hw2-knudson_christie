@@ -137,9 +137,30 @@ main p {
 /************* SEASONAL *************/
 
 #seasonal {
-	height: 400px;
+	height: 380px;
 	background-color: #F7F3EC;
 	text-align: center;
+}
+
+#seasonal h2 {
+	padding-top: 35px;
+	padding-bottom: 30px;
+}
+
+#img-div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 0 5% 20px 5%;
+}
+
+.img {
+	height: 187px;
+	padding: 5px;
+}
+
+.order {
+	order: -1;
 }
 
 /************* FOOTER *************/
@@ -174,6 +195,12 @@ footer p {
 	}
 }
 
+@media (min-width: 639px) {
+	.order {
+		order: 1;
+	}
+}
+
 @media (min-width: 726px) {
 	nav {
 		justify-content: space-between;
@@ -184,6 +211,16 @@ footer p {
 	nav ul {
 		margin-bottom: 0;
 		margin-right: 10%;
+	}
+}
+
+@media (max-width: 638px) {
+	#seasonal {
+		height: 580px;
+	}
+	#img-div {
+		width: 300px;
+		margin: auto;
 	}
 }
 
