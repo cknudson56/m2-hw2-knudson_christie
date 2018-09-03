@@ -167,10 +167,16 @@ main p {
 
 footer {
 	text-align: center;
+	height: 130px;
+}
+
+footer h3 {
+	padding: 20px 0 5px 0;
 }
 
 footer p {
 	color: #11361E;
+	padding: 5px 0 5px 0;
 }
 
 
