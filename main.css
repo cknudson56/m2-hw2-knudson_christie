@@ -3,6 +3,10 @@ light tan #ECE9E5
 forrest green #3E6F2F
 red #F53E30
 
+changes
+light green #E6F6EB
+
+
 font-family: 'Roboto', sans-serif;
 */
 
@@ -71,7 +75,7 @@ p {
 /************* LOCATION BAR *************/
 
 #location {
-	background-color: #ECE9E5;
+	background-color: #E6F6EB;
 	text-align: center;
 	padding: 10px 0 10px 0;
 }
@@ -138,7 +142,7 @@ main p {
 
 #seasonal {
 	height: 380px;
-	background-color: #ECE9E5;
+	background-color: #E6F6EB;
 	text-align: center;
 }
 
