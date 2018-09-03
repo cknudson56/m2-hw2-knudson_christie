@@ -1,6 +1,6 @@
 /*Colors
-light tan #F7F3EC
-forrest green #11361E
+light tan #ECE9E5
+forrest green #3E6F2F
 red #F53E30
 
 font-family: 'Roboto', sans-serif;
@@ -35,7 +35,7 @@ h3 {
 }
 
 h2, h3 {
-	color: #11361E;
+	color: #3E6F2F;
 }
 
 p {
@@ -44,8 +44,8 @@ p {
 
 
 .green {
-	color: #11361E;
-	border-color: #11361E;
+	color: #3E6F2F;
+	border-color: #3E6F2F;
 }
 
 .red {
@@ -71,7 +71,7 @@ p {
 /************* LOCATION BAR *************/
 
 #location {
-	background-color: #F7F3EC;
+	background-color: #ECE9E5;
 	text-align: center;
 	padding: 10px 0 10px 0;
 }
@@ -138,7 +138,7 @@ main p {
 
 #seasonal {
 	height: 380px;
-	background-color: #F7F3EC;
+	background-color: #ECE9E5;
 	text-align: center;
 }
 
@@ -175,7 +175,7 @@ footer h3 {
 }
 
 footer p {
-	color: #11361E;
+	color: #3E6F2F;
 	padding: 5px 0 5px 0;
 }
 
@@ -197,7 +197,7 @@ footer p {
 	.border-left {
 		border-left-style: solid;
 		border-left-width: 1px;
-		border-right-color: #11361E;
+		border-right-color: #3E6F2F;
 	}
 }
 
